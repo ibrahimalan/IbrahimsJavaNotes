@@ -22,7 +22,7 @@ public class MyFirstCalculator
             System.out.print("Second Number: ");
             y = scan.nextInt();
 
-            System.out.println("Choose operation: +, -, /, x ");
+            System.out.println("Choose an operation: +, -, /, x ");
             Scanner scan2 = new Scanner(System.in);
             String calc = scan2.nextLine();
 

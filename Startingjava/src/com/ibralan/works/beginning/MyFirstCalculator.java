@@ -29,13 +29,13 @@ public class MyFirstCalculator
             if (calc.equalsIgnoreCase("+"))
             {
                 System.out.println("Answer For Plus: " + (x + y));
-            } else if (calc.equalsIgnoreCase("-"))
+            } else if (calc.equals("-"))
             {
                 System.out.println("Answer For Minus: " + (x - y));
-            } else if (calc.equalsIgnoreCase("*"))
+            } else if (calc.equals("*"))
             {
                 System.out.println("Answer For Multiply: " + (x * y));
-            } else if (calc.equalsIgnoreCase("/"))
+            } else if (calc.equals("/"))
             {
                 System.out.println("Answer For Divided by: " + (x / y));
             }
